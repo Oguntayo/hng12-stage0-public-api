@@ -4,7 +4,7 @@
 This is a simple backend API developed for the HNG12 Stage 0 Task. The API returns the following details in JSON format:
 
 
----Registered email address (used to register on the HNG12 Slack workspace).
+---Registered email address (The email i used to register on the HNG12 Slack workspace).
 
 
 ---The current date and time in ISO 8601 format (UTC) formatted timestamp.
@@ -31,14 +31,14 @@ This is a simple backend API developed for the HNG12 Stage 0 Task. The API retur
 **Method**: GET
 
 
-**URL**: <your-deployed-url>
+**URL**: https://hng12-stage0-public-api.onrender.com/stage_zero
 
 
 **Response Format**: JSON
 
 {
 
-  "email": "your-email@example.com",
+  "email": "oguntayohabeebullah@gmail.com",
 
   "current_datetime": "2025-01-30T09:30:00Z",
 
@@ -77,7 +77,7 @@ Deployment
 
 
 The API is deployed and publicly accessible at:
-<your-deployed-url>
+https://hng12-stage0-public-api.onrender.com/stage_zero
 
 
 CORS Handling
