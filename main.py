@@ -19,5 +19,5 @@ def index():
     return{
         "email":"oguntayohabeebullah@gmail.com",
         "current_datetime":utc_current.strftime('%Y-%m-%dT%H:%M:%SZ'),
-        "github_url":"https://github.com/Oguntayo/hng12-stage-public-api"
+        "github_url":"https://github.com/Oguntayo/hng12-stage0-public-api"
     }
